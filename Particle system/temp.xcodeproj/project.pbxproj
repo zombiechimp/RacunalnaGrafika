@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1152CC8525830B7F00F1E1BF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1152CC8425830B7F00F1E1BF /* CoreFoundation.framework */; };
+		1152CC972583168A00F1E1BF /* libILUT.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1152CC942583168A00F1E1BF /* libILUT.dylib */; };
+		1152CC982583168A00F1E1BF /* libIL.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1152CC952583168A00F1E1BF /* libIL.dylib */; };
+		1152CC992583168A00F1E1BF /* libILU.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1152CC962583168A00F1E1BF /* libILU.dylib */; };
+		1152CC9C258316D700F1E1BF /* include in Sources */ = {isa = PBXBuildFile; fileRef = 1152CC9B258316D600F1E1BF /* include */; };
+		11DF598A258293EF003009DF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11DF5989258293EF003009DF /* main.cpp */; };
+		11DF59932582A644003009DF /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DF59922582A644003009DF /* OpenGL.framework */; };
+		11DF59962582A6FA003009DF /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DF59952582A6FA003009DF /* GLUT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		11DF5984258293EF003009DF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1152CC7B258308C000F1E1BF /* SOIL2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SOIL2; path = "../../Downloads/SOIL2-master/src/SOIL2"; sourceTree = "<group>"; };
+		1152CC8425830B7F00F1E1BF /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		1152CC872583101D00F1E1BF /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = "../../Downloads/glfw-3.3.2.bin.MACOS/lib-macos/libglfw3.a"; sourceTree = "<group>"; };
+		1152CC882583101D00F1E1BF /* libglfw.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.dylib; path = "../../Downloads/glfw-3.3.2.bin.MACOS/lib-macos/libglfw.3.dylib"; sourceTree = "<group>"; };
+		1152CC8B2583103100F1E1BF /* glfw3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = glfw3.h; path = "../../Downloads/glfw-3.3.2.bin.MACOS/include/GLFW/glfw3.h"; sourceTree = "<group>"; };
+		1152CC8C2583103100F1E1BF /* glfw3native.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = glfw3native.h; path = "../../Downloads/glfw-3.3.2.bin.MACOS/include/GLFW/glfw3native.h"; sourceTree = "<group>"; };
+		1152CC942583168A00F1E1BF /* libILUT.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libILUT.dylib; path = ../../../../usr/local/Cellar/devil/1.8.0_2/lib/libILUT.dylib; sourceTree = "<group>"; };
+		1152CC952583168A00F1E1BF /* libIL.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libIL.dylib; path = ../../../../usr/local/Cellar/devil/1.8.0_2/lib/libIL.dylib; sourceTree = "<group>"; };
+		1152CC962583168A00F1E1BF /* libILU.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libILU.dylib; path = ../../../../usr/local/Cellar/devil/1.8.0_2/lib/libILU.dylib; sourceTree = "<group>"; };
+		1152CC9B258316D600F1E1BF /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; name = include; path = ../../../../usr/local/Cellar/devil/1.8.0_2/include; sourceTree = "<group>"; };
+		1152CCA22583232E00F1E1BF /* Bee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Bee.jpg; path = ../../Bee.jpg; sourceTree = "<group>"; };
+		11ADD6662582F69C00AEEA76 /* structures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = structures.h; sourceTree = "<group>"; };
+		11ADD66B2582FE5300AEEA76 /* SOIL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SOIL.h; path = ../../deps/SOIL/SOIL.h; sourceTree = "<group>"; };
+		11ADD66E2582FEEA00AEEA76 /* SOIL */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SOIL; path = ../../deps/SOIL; sourceTree = "<group>"; };
+		11ADD6782583007200AEEA76 /* libSOIL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSOIL.a; path = "../../Downloads/Simple-OpenGL-Image-Library-master/lib/libSOIL.a"; sourceTree = "<group>"; };
+		11DF5986258293EF003009DF /* temp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = temp; sourceTree = BUILT_PRODUCTS_DIR; };
+		11DF5989258293EF003009DF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		11DF59922582A644003009DF /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		11DF59952582A6FA003009DF /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11DF5983258293EF003009DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1152CC972583168A00F1E1BF /* libILUT.dylib in Frameworks */,
+				1152CC982583168A00F1E1BF /* libIL.dylib in Frameworks */,
+				1152CC992583168A00F1E1BF /* libILU.dylib in Frameworks */,
+				1152CC8525830B7F00F1E1BF /* CoreFoundation.framework in Frameworks */,
+				11DF59962582A6FA003009DF /* GLUT.framework in Frameworks */,
+				11DF59932582A644003009DF /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11DF597D258293EF003009DF = {
+			isa = PBXGroup;
+			children = (
+				1152CC9B258316D600F1E1BF /* include */,
+				1152CC8B2583103100F1E1BF /* glfw3.h */,
+				1152CC8C2583103100F1E1BF /* glfw3native.h */,
+				11DF5988258293EF003009DF /* temp */,
+				11DF5987258293EF003009DF /* Products */,
+				11DF59912582A644003009DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11DF5987258293EF003009DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11DF5986258293EF003009DF /* temp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11DF5988258293EF003009DF /* temp */ = {
+			isa = PBXGroup;
+			children = (
+				11DF5989258293EF003009DF /* main.cpp */,
+				1152CCA22583232E00F1E1BF /* Bee.jpg */,
+				11ADD6662582F69C00AEEA76 /* structures.h */,
+			);
+			path = temp;
+			sourceTree = "<group>";
+		};
+		11DF59912582A644003009DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1152CC952583168A00F1E1BF /* libIL.dylib */,
+				1152CC962583168A00F1E1BF /* libILU.dylib */,
+				1152CC942583168A00F1E1BF /* libILUT.dylib */,
+				1152CC882583101D00F1E1BF /* libglfw.3.dylib */,
+				1152CC872583101D00F1E1BF /* libglfw3.a */,
+				1152CC8425830B7F00F1E1BF /* CoreFoundation.framework */,
+				1152CC7B258308C000F1E1BF /* SOIL2 */,
+				11ADD6782583007200AEEA76 /* libSOIL.a */,
+				11ADD66E2582FEEA00AEEA76 /* SOIL */,
+				11ADD66B2582FE5300AEEA76 /* SOIL.h */,
+				11DF59952582A6FA003009DF /* GLUT.framework */,
+				11DF59922582A644003009DF /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11DF5985258293EF003009DF /* temp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11DF598D258293EF003009DF /* Build configuration list for PBXNativeTarget "temp" */;
+			buildPhases = (
+				11DF5982258293EF003009DF /* Sources */,
+				11DF5983258293EF003009DF /* Frameworks */,
+				11DF5984258293EF003009DF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = temp;
+			productName = temp;
+			productReference = 11DF5986258293EF003009DF /* temp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11DF597E258293EF003009DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					11DF5985258293EF003009DF = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 11DF5981258293EF003009DF /* Build configuration list for PBXProject "temp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11DF597D258293EF003009DF;
+			productRefGroup = 11DF5987258293EF003009DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11DF5985258293EF003009DF /* temp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11DF5982258293EF003009DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1152CC9C258316D700F1E1BF /* include in Sources */,
+				11DF598A258293EF003009DF /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		11DF598B258293EF003009DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		11DF598C258293EF003009DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		11DF598E258293EF003009DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"HEADER_SEARCH_PATHS[arch=*]" = "/usr/local/include ";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/devil/1.8.0_2/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11DF598F258293EF003009DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"HEADER_SEARCH_PATHS[arch=*]" = "/usr/local/include ";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/devil/1.8.0_2/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11DF5981258293EF003009DF /* Build configuration list for PBXProject "temp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11DF598B258293EF003009DF /* Debug */,
+				11DF598C258293EF003009DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11DF598D258293EF003009DF /* Build configuration list for PBXNativeTarget "temp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11DF598E258293EF003009DF /* Debug */,
+				11DF598F258293EF003009DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11DF597E258293EF003009DF /* Project object */;
+}
